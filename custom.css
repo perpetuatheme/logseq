@@ -1,0 +1,196 @@
+/* ----------------------------- *
+ *     Perpetua dark palette     *
+ * ----------------------------- */
+:root,
+.dark-theme,
+html[data-theme='dark'] {
+  --perpetua-red:       #ff9d94;
+  --perpetua-orange:    #ffa353;
+  --perpetua-yellow:    #dfb800;
+  --perpetua-lime:      #90d400;
+  --perpetua-green:     #00dca0;
+  --perpetua-turquoise: #00d8cb;
+  --perpetua-cyan:      #00d3eb;
+  --perpetua-cerulean:  #56caff;
+  --perpetua-blue:      #8bbfff;
+  --perpetua-violet:    #b6b1ff;
+  --perpetua-lavender:  #ea95ff;
+  --perpetua-pink:      #ff95c4;
+
+  --perpetua-red-back:       #960d18;
+  --perpetua-orange-back:    #763f02;
+  --perpetua-yellow-back:    #5f4e03;
+  --perpetua-lime-back:      #3c5a07;
+  --perpetua-green-back:     #085e43;
+  --perpetua-turquoise-back: #045c56;
+  --perpetua-cyan-back:      #035a65;
+  --perpetua-cerulean-back:  #035776;
+  --perpetua-blue-back:      #034f95;
+  --perpetua-violet-back:    #5213c6;
+  --perpetua-lavender-back:  #7c0493;
+  --perpetua-pink-back:      #8f0259;
+
+  --perpetua-base0: #14171b;
+  --perpetua-base1: #1a1e22;
+  --perpetua-base2: #21252a;
+  --perpetua-base3: #33383d;
+  --perpetua-base4: #464b51;
+  --perpetua-base5: #595f65;
+  --perpetua-over0: #6d7378;
+  --perpetua-over1: #82878c;
+  --perpetua-over2: #989ca0;
+  --perpetua-text0: #dcdddd;
+  --perpetua-text1: #c5c7c8;
+  --perpetua-text2: #aeb1b4;
+}
+
+/* ------------------------------ *
+ *     Perpetua light palette     *
+ * ------------------------------ */
+:root,
+.light-theme,
+html[data-theme='light'] {
+  --perpetua-red:       #dd0c25;
+  --perpetua-orange:    #af6001;
+  --perpetua-yellow:    #8e7502;
+  --perpetua-lime:      #5a8705;
+  --perpetua-green:     #068c65;
+  --perpetua-turquoise: #038981;
+  --perpetua-cyan:      #028696;
+  --perpetua-cerulean:  #0282ae;
+  --perpetua-blue:      #0476db;
+  --perpetua-violet:    #764bfe;
+  --perpetua-lavender:  #b607d7;
+  --perpetua-pink:      #d30384;
+
+  --perpetua-red-back:       #f2d5d2;
+  --perpetua-orange-back:    #f1d8c4;
+  --perpetua-yellow-back:    #e9ddb3;
+  --perpetua-lime-back:      #cfe6b8;
+  --perpetua-green-back:     #b9ead3;
+  --perpetua-turquoise-back: #b5e9e3;
+  --perpetua-cyan-back:      #bbe6ee;
+  --perpetua-cerulean-back:  #c5e2f2;
+  --perpetua-blue-back:      #cfdff3;
+  --perpetua-violet-back:    #dbdaf3;
+  --perpetua-lavender-back:  #e9d5ee;
+  --perpetua-pink-back:      #f1d4df;
+
+  --perpetua-base0: #f5f3f1;
+  --perpetua-base1: #edeae7;
+  --perpetua-base2: #e6e2de;
+  --perpetua-base3: #d6d1cb;
+  --perpetua-base4: #c6c0ba;
+  --perpetua-base5: #b6b0a9;
+  --perpetua-over0: #a5a09a;
+  --perpetua-over1: #95908b;
+  --perpetua-over2: #84817c;
+  --perpetua-text0: #4d4d4c;
+  --perpetua-text1: #5f5e5c;
+  --perpetua-text2: #726f6c;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- *
+ *     Logseq theming  (Note: Only variables are themed, no element is directly styled.)                                       *
+ *                                                                                                                             *
+ *  See https://github.com/logseq/logseq/blob/9a44268fbf22632412d66b55554955f82d903a01/src/main/frontend/common.css#L40-L190.  *
+ * --------------------------------------------------------------------------------------------------------------------------- */
+.dark-theme,
+html[data-theme='dark'],
+.light-theme,
+html[data-theme='light'] {
+  --ls-primary-background-color: var(--perpetua-base0);
+  --ls-secondary-background-color: var(--perpetua-base1);
+  --ls-tertiary-background-color: var(--perpetua-base2);
+  --ls-quaternary-background-color: var(--perpetua-base3);
+  --ls-table-tr-even-background-color: var(--perpetua-base2);
+
+  --ls-active-primary-color: var(--perpetua-red);
+  --ls-active-secondary-color: var(--perpetua-orange);
+
+  --ls-block-properties-background-color: var(--perpetua-base2);
+  --ls-page-properties-background-color: var(--perpetua-base2);
+  --ls-block-ref-link-text-color: var(--perpetua-blue);
+
+  --ls-border-color: var(--perpetua-base5);
+  --ls-secondary-border-color: var(--perpetua-base5);
+  --ls-tertiary-border-color: var(--perpetua-base5);
+  --ls-guideline-color: var(--perpetua-base5);
+
+  --ls-menu-hover-color: var(--ls-secondary-background-color);
+
+  --ls-primary-text-color: var(--perpetua-text0);
+  --ls-secondary-text-color: var(--perpetua-text1);
+  --ls-title-text-color: var(--perpetua-text0);
+  --ls-link-text-color: var(--perpetua-blue);
+  --ls-link-text-hover-color: var(--ls-active-secondary-color);
+  --ls-link-ref-text-color: var(--ls-link-text-color);
+  --ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
+  --ls-tag-text-color: var(--ls-link-text-color);
+  --ls-tag-text-hover-color: var(--ls-link-text-hover-color);
+
+  --ls-slide-background-color: var(--ls-primary-background-color);
+
+  --ls-block-bullet-border-color: var(--perpetua-base5);
+  --ls-block-bullet-color: var(--perpetua-over2);
+  --ls-block-highlight-color: var(--perpetua-base4);
+
+  --ls-selection-background-color: var(--perpetua-base4);
+  --ls-selection-text-color: var(--perpetua-text0);
+
+  --ls-page-checkbox-color: var(--perpetua-over1);
+  --ls-page-checkbox-border-color: var(--ls-primary-background-color);
+
+  --ls-page-blockquote-color: var(--ls-primary-text-color);
+  --ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
+  --ls-page-blockquote-border-color: var(--ls-border-color);
+
+  --ls-page-mark-color: var(--perpetua-text0);
+  --ls-page-mark-bg-color: var(--perpetua-yellow-back);
+
+  --ls-page-inline-code-color: var(--ls-primary-text-color);
+  --ls-page-inline-code-bg-color: var(--perpetua-base3);
+
+  --ls-scrollbar-foreground-color: var(--perpetua-over0);
+  --ls-scrollbar-background-color: var(--perpetua-base2);
+  --ls-scrollbar-thumb-hover-color: var(--perpetua-over2);
+
+  --ls-cloze-text-color: var(--perpetua-green);
+
+  --ls-icon-color: var(--ls-link-text-color);
+
+  --ls-search-icon-color: var(--ls-primary-text-color);
+  --ls-search-icon-hover-color: var(--ls-secondary-text-color);
+
+  --ls-a-chosen-bg: var(--ls-quaternary-background-color);
+
+  --ls-pie-bg-color: var(--perpetua-base1);
+  --ls-pie-fg-color: var(--perpetua-text1);
+
+  --ls-highlight-color-gray: var(--perpetua-base3);
+  --ls-highlight-color-red: var(--perpetua-red-back);
+  --ls-highlight-color-yellow: var(--perpetua-yellow-back);
+  --ls-highlight-color-green: var(--perpetua-green-back);
+  --ls-highlight-color-blue: var(--perpetua-blue-back);
+  --ls-highlight-color-purple: var(--perpetua-violet-back);
+  --ls-highlight-color-pink: var(--perpetua-pink-back);
+
+  --ls-error-text-color: var(--perpetua-red);
+  --ls-error-background-color: var(--perpetua-red-back);
+  --ls-warning-text-color: var(--perpetua-yellow);
+  --ls-warning-background-color: var(--perpetua-yellow-back);
+  --ls-success-text-color: var(--perpetua-green);
+  --ls-success-background-color: var(--perpetua-green-back);
+
+  --ls-focus-ring-color: var(--perpetua-base5);
+
+  --ls-header-button-background: var(--perpetua-text0);
+
+  --color-level-1: var(--ls-secondary-background-color);
+  --color-level-2: var(--ls-tertiary-background-color);
+  --color-level-3: var(--ls-quaternary-background-color);
+  --color-level-4: var(--perpetua-base4);
+  --color-level-5: var(--perpetua-base4);
+  --color-level-6: var(--perpetua-base4);
+}
